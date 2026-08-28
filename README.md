@@ -1,0 +1,49 @@
+[README.md](https://github.com/user-attachments/files/31549216/README.md)
+# Collage Tools — Next.js MVP
+
+Первый нормальный каркас редактора.
+
+## Уже работает
+
+- локальная загрузка изображений через file picker
+- drag & drop файлов на холст
+- локальные картинки отображаются через `URL.createObjectURL`
+- перемещение картинок мышью
+- изменение ширины / высоты
+- поворот
+- прозрачность
+- удаление
+- bring to front
+- Shuffle
+- форматы холста 1:1 / 4:5 / 9:16 / 16:9 / 3:2
+- серверный `/api/image-proxy` для удалённых картинок
+
+## Запуск
+
+Нужен Node.js 20+.
+
+```bash
+npm install
+npm run dev
+```
+
+Открыть:
+
+http://localhost:3000
+
+## Почему эта версия лучше standalone HTML
+
+Локальная загрузка вообще не зависит от CORS и внешних серверов.
+Удалённые картинки проходят через Next.js API route.
+UI и логика редактора разделены, поэтому дизайн можно полностью заменить позже.
+
+## Следующие этапы
+
+1. Resize ручками прямо на холсте
+2. Crop / fit / fill
+3. Undo / redo
+4. Сохранение проекта
+5. Supabase Auth + Database + Storage
+6. Openverse / Unsplash / Pexels adapters
+7. Экспорт PNG/JPEG
+8. Алгоритмы композиции и параметрические ползунки
