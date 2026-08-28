@@ -1,4 +1,4 @@
-# Collage Tool v0.2
+# Collage Tool v2 
 
 Добавлено:
 
