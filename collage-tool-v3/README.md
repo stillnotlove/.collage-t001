@@ -1,4 +1,4 @@
-# Collage Tool V3
+# Collage Tool v3
 
 Experimental collage/poster playground.
 
