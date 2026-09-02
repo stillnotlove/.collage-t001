@@ -1,0 +1,15 @@
+export default function manifest(){
+  return {
+    name:'1337tools',
+    short_name:'1337tools',
+    description:'Process-first image tools',
+    start_url:'/',
+    display:'standalone',
+    background_color:'#0038ff',
+    theme_color:'#0038ff',
+    icons:[
+      {src:'/icon-192.png',sizes:'192x192',type:'image/png',purpose:'any'},
+      {src:'/icon-512.png',sizes:'512x512',type:'image/png',purpose:'any'}
+    ],
+  };
+}
