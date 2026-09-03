@@ -1,0 +1,16 @@
+{
+  "name": "1337tools-v4-65",
+  "version": "0.4.65",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "audit": "node scripts/audit.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.24",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  }
+}
