@@ -1,0 +1,17 @@
+{
+  "name": "1337tools-v4-70",
+  "version": "0.4.70",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "audit": "node scripts/audit.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.24",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "@vercel/analytics": "2.0.1"
+  }
+}
